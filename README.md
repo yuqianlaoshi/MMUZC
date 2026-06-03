@@ -41,4 +41,8 @@ To train the model, run:
 ```bash
 python train_model.py
 ```
-
+To visualize the training loss, run:
+```bash
+python drawloss.py
+```
+The core calibration module (DTLayer) and the progressive Late‑Fusion block are implemented in exmodel.py.

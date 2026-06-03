@@ -45,4 +45,5 @@ To visualize the training loss, run:
 ```bash
 python drawloss.py
 ```
+To train on your own dataset (with or without loading pre‑trained weights), use trainnewdata.py. You can choose to start from scratch or fine‑tune an existing checkpoint.
 The core calibration module (DTLayer) and the progressive Late‑Fusion block are implemented in exmodel.py.
